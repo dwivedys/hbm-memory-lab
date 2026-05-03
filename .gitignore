@@ -2,6 +2,9 @@
 a.out
 *.out
 *.exe
+fs
+m
+p
 
 # Object files
 *.o
