@@ -1,0 +1,20 @@
+# Compiled binaries
+a.out
+*.out
+*.exe
+
+# Object files
+*.o
+
+# Mac / system files
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Terraform (you had some)
+.terraform/
+*.tfstate
+
+# Logs
+*.log
