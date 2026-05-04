@@ -4,6 +4,13 @@
 int main() {
     
     char buf[20];
+
+    memset(buf, 0xf0, 20);
+    for(int i = 0; i < 20; i++) {
+        printf("%02X ", (unsigned char)buf[i]);
+    } 
+    printf("\n");
+
     memset(buf, 'X', 20);
     printf("%s", buf);
     printf("\n");
