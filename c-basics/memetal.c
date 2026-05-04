@@ -11,6 +11,16 @@ int main() {
     } 
     printf("\n");
 
+    int arr1[5];
+    
+    memset(arr1, 0xff, 20);
+    unsigned char* p = (unsigned char*) arr1;
+    for(int i = 0; i < 20; i++) {
+        printf("%02X ", p[i]);
+    } 
+    printf("\n");
+
+
     memset(buf, 'X', 20);
     printf("%s", buf);
     printf("\n");
